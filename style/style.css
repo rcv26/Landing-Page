@@ -18,15 +18,25 @@
     /* flex: 1; */
   }
 
-/*   main{
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2px;
+    font-size: small;
+
+  }
+  
+  main{
     justify-content: center;
     height: 55vh;
     min-height: 300px;
-    margin-top: 55px;
-} */
+    bottom: 0;
+ 
+}
 
 
 footer{
@@ -38,5 +48,5 @@ footer{
     width: 100%;
     padding: 2px;
     font-size: small;
-    background-color: rgb(238, 238, 238);
+    
 }
