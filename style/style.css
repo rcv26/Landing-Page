@@ -18,17 +18,25 @@
     /* flex: 1; */
   }
 
-header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 2px;
-    font-size: small;
+  li a {
+    display: inline-block;
+    color: #1f2937;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.bottomleft{
+    position:fixed;
+  left: 16px;
+  font-size: 18px;
+}
+
+#app a:hover{
     background-color: #1f2937;
-  }
+    border-radius: 20px;
+}
   
   main{
     justify-content: center;
