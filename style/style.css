@@ -1,37 +1,10 @@
-  .flex-container div {
-    height: 100px;
-    /* flex: 1; */
-  }
-
-  .flex-container .B1, .B2, header, footer {
-    background: #1f2937;
-    border: 0px solid;
-    height: 100px;
-    /* flex: 1; */
-  }
-
-  .flex-containerdiv {
-    display: flex;
-  }
-  
-  /* this selector selects all divs inside of .flex-container */
-  .flex-containerdiv {
-    height: 100px;
-    flex: 1 1;
-  }
-  
-  /* only div.two is selected here */
-   .flex-containerdiv .two {
-    flex: 1 1 ;
-  } 
-
 .bottomleft{
     position:fixed;
   left: 16px;
   font-size: 18px;
 }
 
-#app a:hover{
+a:hover{
     background-color: #1f2937;
     border-radius: 20px;
 }
@@ -39,67 +12,7 @@
 .navbar{
     background: #1f2937;
 }
-.wrapper {
-    display: flex;
-    justify-content: center;
-  }
 
-.randomInfoBox {
-    width: 170px;
-    height: 170px;
-    border-radius: 7px;
-  }
-  
-  #randomInfoWrapper {
-    display: flex;
-    gap: 2rem;
-  }
-  
-  .randomInfo li {
-    color: hsl(0, 0%, 38%);
-  }
-  
-  .randomInfo {
-    gap: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 170px;
-    text-align: center;
-  }
-
-  #second h3 {
-    color: hsl(348, 52%, 38%);
-    margin-bottom: 3rem;
-  }
-  
-  #second {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
-
-  #box1 {
-    background-color: hsl(348, 82%, 92%);
-  }
-  
-  #box2 {
-    background-color: hsl(348, 51%, 74%);
-  }
-  
-  #box3 {
-    background-color: hsl(348, 52%, 50%);
-  }
-  
-  #box4 {
-    background-color: hsl(348, 51%, 25%);
-  }
-  
-
-#lista{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
 
 h3{
     font-size: 48px;
@@ -139,5 +52,8 @@ footer{
     width: 100%;
     padding: 2px;
     font-size: small;
+    background: #1f2937;
+    border: 0px solid;
+    height: 50px;
     
 }
