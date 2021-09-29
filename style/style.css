@@ -30,13 +30,16 @@ body{
     padding-top: 3rem;
   }
   
-  h3 {
-    font-size: 36px;
+  h2, em {
+    font-size: 22px;
     margin-top: 0;
+    padding-bottom: 0%;
+    color: black;
   }
-  
-  h4 {
-    font-size: 24px;
+
+  h4{
+
+    font-size: 14px;
   }
   
   /* First section */
@@ -47,11 +50,11 @@ body{
   }
   
   #firstWrapper {
-    background: hsl(348, 52%, 25%);
+    background: #1f2937;
   }
   
   #thirdWrapper {
-    background-color: hsl(348, 51%, 25%);
+    background-color: #1f2937;
   }
   
   #first {
@@ -63,36 +66,19 @@ body{
     gap: 7rem;
   }
   
-  #header,
   #hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   
-  #headerLogo {
-    font-size: 24px;
-    font-weight: 600;
-    user-select: none;
-  }
-  
-  #headerNav {
-    display: flex;
-    gap: 2rem;
-  }
-  
-  #headerNav li {
-    user-select: none;
-  }
-  
-  #headerNav li:hover {
-    color: #ed4c6c;
+ li:hover {
+    color: #1f2937;
     cursor: pointer;
   }
   
   #heroLeft h2,
-  #heroLeft button,
-  #headerLogo {
+  #heroLeft button{
     color: white;
   }
   
@@ -110,13 +96,18 @@ body{
   #heroRight {
     flex: 1 1 0;
   }
+
+  #b4{
+    width: 250px;
+    height: 300px;
+  }
   
   #heroRight {
     display: flex;
     justify-content: center;
   }
   
-  #heroRight img {
+  #heroRight #b3 {
     flex: 1;
     object-fit: cover;
     max-height: calc(214px + 1rem);
@@ -132,7 +123,7 @@ body{
   /* Second section */
   
   #second h3 {
-    color: hsl(348, 52%, 38%);
+    color: #1f2937;
     margin-bottom: 3rem;
   }
   
@@ -141,7 +132,7 @@ body{
     padding-bottom: 4rem;
   }
   
-  .randomInfoBox {
+  .randomInfoBox, img {
     width: 170px;
     height: 170px;
     border-radius: 7px;
@@ -165,29 +156,14 @@ body{
     text-align: center;
   }
   
-  #box1 {
-    background-color: hsl(348, 82%, 92%);
-  }
-  
-  #box2 {
-    background-color: hsl(348, 51%, 74%);
-  }
-  
-  #box3 {
-    background-color: hsl(348, 52%, 50%);
-  }
-  
-  #box4 {
-    background-color: hsl(348, 51%, 25%);
-  }
   
   /* Third */
   
   .section-center#third {
     padding-inline: 14rem;
     display: flex;
-    background-color: hsl(348, 51%, 25%);
-    color: white;
+    background-color: #d3d8df;
+    color: black;
     padding-top: 6rem;
     padding-bottom: 5rem;
     gap: 2rem;
@@ -216,7 +192,7 @@ body{
     align-items: center;
     padding: 3rem;
     padding-inline: 10rem;
-    background-color: hsl(348, 82%, 61%);
+    background-color:#3281f1;
     border-radius: 7px;
     color: white;
     flex: 1;
@@ -267,6 +243,7 @@ body{
   
   .signUp-cta {
     border: 2px solid white;
+    background-color: #3281f1;
   }
   
   #signUp:hover {
@@ -278,10 +255,6 @@ body{
     position:fixed;
   left: 16px;
   font-size: 18px;
-}
-
-a:hover{
-    background-color: #1f2937;
 }
 
 .navbar{
@@ -315,7 +288,7 @@ p{
 footer{
     gap: 7px;
     color: white;
-    background-color: hsl(348, 51%, 25%);
+    background-color: #1f2937;
     display: flex;
     justify-content: center;
     align-items: center;
